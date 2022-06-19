@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListarAlimentos">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="372dp"
+        android:layout_height="514dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/fresas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ac67f"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarFresa"
+                app:srcCompat="@mipmap/fresa" />
+
+            <ImageButton
+                android:id="@+id/manzanas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarManzana"
+                app:srcCompat="@mipmap/manzana" />
+
+            <ImageButton
+                android:id="@+id/piña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ac67f"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarPina"
+                app:srcCompat="@mipmap/pina" />
+
+            <ImageButton
+                android:id="@+id/sandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarSandia"
+                app:srcCompat="@mipmap/sandia" />
+
+            <ImageButton
+                android:id="@+id/bananas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ac67f"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarBanana"
+                app:srcCompat="@mipmap/banana" />
+
+            <ImageButton
+                android:id="@+id/pera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarPera"
+                app:srcCompat="@mipmap/pera" />
+
+            <ImageButton
+                android:id="@+id/kiwis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ac67f"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarKiwi"
+                app:srcCompat="@mipmap/kiwi" />
+
+            <ImageButton
+                android:id="@+id/mangos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarMango"
+                app:srcCompat="@mipmap/mango" />
+
+            <ImageButton
+                android:id="@+id/melon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ac67f"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarMelon"
+                app:srcCompat="@mipmap/melon" />
+
+            <ImageButton
+                android:id="@+id/naranjas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarNaranja"
+                app:srcCompat="@mipmap/naranja" />
+
+            <ImageButton
+            android:id="@+id/cereza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0ac67f"
+            android:contentDescription="@string/IB"
+            android:onClick="MostrarCereza"
+            app:srcCompat="@mipmap/cereza" />
+
+            <ImageButton
+                android:id="@+id/uva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/IB"
+                android:onClick="MostrarUva"
+                app:srcCompat="@mipmap/uva" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ComidT"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

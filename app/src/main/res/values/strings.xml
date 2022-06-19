@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NutriApp</string>
+    <string name="email">Ingrese un e-mail</string>
+    <string name="password">Ingrese una contraseña</string>
+    <string name="Nombre">Ingrese su nombre</string>
+    <string name="Apellido">Ingrese su Apellido</string>
+    <string name="Telefono">Ingrese su número de telefono</string>
+    <string name="register">Registrar Usuario</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="title_activity_localizanos">Map</string>
+    <string name="ButtonLocalizanos">Localizanos</string>
+    <string name="IB">ImageButton</string>
+    <string name="Indicacion_map">Localizanos</string>
+    <string name="IMC">Calculo de IMC</string>
+    <string name="CPI">Calculo de peso ideal</string>
+    <string name="CPs">Calculo de peso saludable</string>
+    <string name="GBE">Calculo de gasto energetico</string>
+    <string name="CLC">Conoce lo que comes</string>
+    <string name="title_activity_CalculoImc">CalculoIMC</string>
+    <string name="PesoKg">Ingres su peso en KG</string>
+    <string name="TallaM">Ingres su altura en M</string>
+    <string name="KG">Kg</string>
+    <string name="Edad">Ingrese su edad en años</string>
+    <string name="M">M</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="alturaCM">Ingrese su altura en cm</string>
+    <string name="CerrarSesión">Cerras Sesión</string>
+    <string name="ComidT">Conoce lo que comes</string>
+</resources>
